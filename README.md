@@ -6,6 +6,9 @@ The combined dataset is then used to train a neural network model (RandomForestR
 
 The aim of this notebook is to assist the athlete in determining the best training intensities and volume, as well as to inform tapering before races, in order to achieve optimal performance and training adaptation. The data used for analysis was obtained from a single master's athlete over a period of 6 years and covers various training intensities, terrains, altitudes, and nutritional interventions. The data was retrieved from the "Athlete Data Warehouse" PostgreSQL database, which integrates athletic activity and lifestyle information from various sources, and was exported into a CSV file included with this notebook.
 
+*Scatter Plot EF/Pace vs HR/%HRmax:*
+![](Run_EF_Vis_Scatter.png)
+
 Resources:
 * https://github.com/pgalko/athlete_data_warehouse
 * https://alancouzens.com/blog/Banister_v_Neural_Network.html,
